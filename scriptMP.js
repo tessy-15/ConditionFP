@@ -319,7 +319,7 @@ function getSlideSrc(slideNumber) {
   }
 
   if (slideNumber === 13) {
-    return 'slides/graph-positive.png';
+    return 'slides/figure-positive.png';
   }
 
   if (photoCleanSlideNumbers.has(slideNumber)) {
@@ -1251,7 +1251,7 @@ async function submitSurveyToGoogleForm() {
 
   try {
     await fetch(
-      "https://docs.google.com/forms/d/e/1FAIpQLSfAHH7whxtwD7i8T6iGD3jvo59OYDXa8s4Daa7Z2J_yLwZU1g/formResponse",
+      "https://docs.google.com/forms/d/e/1FAIpQLSf-TrgMMDyAKn9SzXPo2TR_E1vEGYk946jLM80RhcStXT1G1g/formResponse",
       {
         method: "POST",
         mode: "no-cors",
